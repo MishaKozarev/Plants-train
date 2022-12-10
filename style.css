@@ -285,17 +285,97 @@ li{
 
 
 
-
+/* START STYLE PRICES */
 .prices {
 }
 .prices_container {
+    max-width: 1222px;
+    margin: 40px auto 11.59px;
 }
 .prices_row {
+    display: flex;
+    justify-content: space-between;
 }
-.prices_text {
+.prices_left{
 }
-.prices_colum {
+.prices_left h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
 }
+.prices_select{
+    width: 332px;
+    height: 282px;
+    border: 1px solid #E3E1D5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+
+.prices_select_colum{
+    display: flex;
+    flex-direction: column;
+}
+.prices_select_item{
+    width: 250px;
+    height: 50px;
+    background: #EDF2EC;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    border-radius: 20px;
+    border: none;
+}
+.prices_option{
+    
+
+}
+.prices_right{
+    max-width: 452px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.prices_right h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+    color: #000000;
+}
+.prices_right h2 span{
+    color: green;
+}
+.prices_button{
+    width: 162px;
+    height: 50px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #E06733;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    background: white;
+}
+/* END STYLE PRICES */
+
+
+
+
+
 .contacts {
 }
 .contacts_container {
