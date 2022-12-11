@@ -335,8 +335,6 @@ li{
     border: none;
 }
 .prices_option{
-    
-
 }
 .prices_right{
     max-width: 452px;
@@ -375,7 +373,7 @@ li{
 
 
 
-
+/* START STYLE CONTACTS */
 .contacts {
     background: #EDF2EC;
     height: 542px;
@@ -425,6 +423,12 @@ li{
 }
 .contacts_select_option{
 }
+/* END STYLE CONTACTS */
+
+
+
+
+/* START STYLE FOOTER */
 .footer_container {
     width: 100%;
     height: 132px;
@@ -453,3 +457,4 @@ li{
 }
 .footer_social {
 }
+/* END STYLE FOOTER */
